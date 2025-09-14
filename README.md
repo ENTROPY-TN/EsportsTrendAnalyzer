@@ -66,6 +66,65 @@ HypeHunter is built on a robust, event-driven architecture designed for scalabil
 | **Frontend** | React, WebSocket Client |
 | **Deployment** | Docker, Kubernetes, dotenv |
 
+## How HypeHunter Works
+
+HypeHunter leverages advanced data aggregation and AI-driven analytics to identify trending games and deliver actionable insights to gamers, streamers, and developers. The system’s workflow is structured as follows:
+
+1. Data Collection
+
+We systematically gather raw data from multiple trusted sources via APIs:
+
+RAWG API – Provides detailed game metadata.
+
+Twitter API – Captures social media buzz and trending discussions.
+
+Reddit API – Monitors subreddit posts and comments in relevant gaming communities.
+
+Twitch API – Collects live viewer statistics for streaming content.
+
+Steam API – Retrieves player metrics, achievements, and game statistics.
+
+This multi-source approach ensures comprehensive coverage of gaming trends across platforms.
+
+2. Trending Game Identification
+
+A dedicated intelligent agent scans subreddit activity, analyzing posts and comments to generate a preliminary list of potentially trending games. This candidate list is the foundation for deeper evaluation.
+
+3. Data Aggregation
+
+The candidate games are then queried across all APIs to collect relevant structured and unstructured data, including social engagement metrics, user statistics, and gameplay information.
+
+4. Information Processing
+
+Collected data is processed using our proprietary large language model, Gemnai Flash 2.0, which standardizes raw input into structured JSON objects. Each object contains detailed, multi-dimensional information about the game, including gameplay metrics, social engagement, and critical reception.
+
+5. Rating System
+
+A secondary LLM evaluates each game against a comprehensive multi-factor scoring framework:
+
+Metric	Thresholds	Score
+Rating	≥ 4	5
+	2 < rating ≤ 4	3
+	≤ 2	1
+Playtime (hours)	≥ 100	5
+	50 < playtime ≤ 100	3
+	≤ 50	1
+YouTube Views	≥ 1M	5
+	100K < views ≤ 1M	3
+	≤ 100K	1
+Twitch Viewer Count	≥ 1000	5
+	100 < viewers ≤ 999	3
+	≤ 100	1
+Metacritic Score	≥ 80	5
+	60 < score ≤ 80	3
+	≤ 60	1
+
+This scoring system ensures that each game is evaluated holistically across popularity, engagement, and critical reception.
+
+6. Database Storage
+
+The processed JSON data, along with calculated ratings, are stored in a MongoDB database. This enables the frontend to dynamically fetch trending game information, ensuring users receive real-time, data-driven insights.
+
 ---
 
 ![img_1.png](img_1.png)
