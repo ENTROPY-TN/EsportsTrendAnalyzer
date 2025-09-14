@@ -44,27 +44,28 @@ def process_and_generate_output():
 
         if response.strip().startswith("```json") or response.strip().startswith("json"):
                 response = response.strip().split('\n', 1)[1]
-        trend_data = response.strip('`').split('\n', 1)[1]
+        trend_data = response.strip("`")
         messages = [
             SystemMessage(content=prompts.review),
             HumanMessage(content=prompts.review_prompt(trend_data)),
         ]
         review=llm.invoke(messages)
-        if review.strip().startswith("```json") or review.strip().startswith("json"):
-                review = review.strip().split('\n', 1)[1]
-        
-        review = review.strip().split('\n', 1)[1]
+        if response.strip().startswith("```json") or response.strip().startswith("json"):
+                response = response.strip().split('\n', 1)[1]
     
-        review_data = review.strip('`')
+        review_data = response.strip("`")
+        review_parsed=json.loads(review_data)
+        trend_parsed=json.loads(trend_data)
 
 
         # Step 2: Read JSON file
         with open("trend.json", 'w', encoding='utf-8') as f:
-            json.dump(trend_data, f, indent=4)  # Using json.dump() to write data with indentation
+            
+            json.dump(trend_parsed, f, indent=4)  # Using json.dump() to write data with indentation
 
         # Writing review_data to "review.json"
         with open("review.json", 'w', encoding='utf-8') as f:
-            json.dump(review_data, f, indent=4)  # Using json.dump() to write data with indentation
+            json.dump(review_parsed, f, indent=4)  # Using json.dump() to write data with indentation
 
         # Merging both JSON data into a list and writing it to "merged.json"
         merged_data = [trend_data, review_data]
