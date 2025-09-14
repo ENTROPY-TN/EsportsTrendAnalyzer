@@ -1,0 +1,12 @@
+.trend-chart {
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.chart-title {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+}

@@ -1,0 +1,175 @@
+{
+    "Marvel Rivals": {
+        "trending_score": 75,
+        "key_insights": [
+            "Mentioned in multiple Reddit posts on r/GamerPals, indicating growing interest in finding friends to play with.",
+            "Steam player count is relatively high at 105,674, suggesting a strong player base.",
+            "Recent release date (2024-12-06) indicates it's a newer title still gaining traction."
+        ],
+        "general_info": {
+            "publisher": "Not available in provided data",
+            "rating": 3.75,
+            "youtube_views": 0,
+            "number_of_users": "Not available in provided data"
+        },
+        "twitch_top_streamers": [],
+        "steam_player_count": 105674
+    },
+    "Fortnite": {
+        "trending_score": 60,
+        "key_insights": [
+            "Mentioned in Reddit posts, indicating continued interest among gamers.",
+            "Specifically, the 'no build' mode is highlighted, suggesting a specific preference within the community."
+        ],
+        "general_info": {
+            "publisher": "Epic Games",
+            "rating": "Not available in provided data",
+            "youtube_views": "Not available in provided data",
+            "number_of_users": "Not available in provided data"
+        },
+        "twitch_top_streamers": [],
+        "steam_player_count": "Not available in provided data"
+    },
+    "Baldurs Gate 3": {
+        "trending_score": 80,
+        "key_insights": [
+            "Mentioned in Reddit posts as a game people are looking to play with friends.",
+            "Steam player count is significant at 67,950, indicating a healthy player base.",
+            "High Metacritic score (97) suggests critical acclaim and positive reception."
+        ],
+        "general_info": {
+            "publisher": "Not available in provided data",
+            "rating": 4.43,
+            "youtube_views": 584102,
+            "number_of_users": "Not available in provided data"
+        },
+        "twitch_top_streamers": [],
+        "steam_player_count": 67950
+    },
+    "Sea of Thieves": {
+        "trending_score": 65,
+        "key_insights": [
+            "Mentioned in Reddit posts, indicating continued interest in finding groups to play with.",
+            "Steam player count is moderate at 6,646, showing a stable player base.",
+            "Available on multiple platforms (PC, PlayStation 5, Xbox Series S/X, Xbox One) increases its accessibility."
+        ],
+        "general_info": {
+            "publisher": "Not available in provided data",
+            "rating": 3.69,
+            "youtube_views": 1000000,
+            "number_of_users": "Not available in provided data"
+        },
+        "twitch_top_streamers": [],
+        "steam_player_count": 6646
+    },
+    "Hollow Knight: Silksong": {
+        "trending_score": 70,
+        "key_insights": [
+            "Steam player count is high at 276,239, suggesting a large player base.",
+            "Relatively recent release date (2025-09-04) indicates it's a newer title.",
+            "Good rating of 4.07 suggests positive user reception."
+        ],
+        "general_info": {
+            "publisher": "Not available in provided data",
+            "rating": 4.07,
+            "youtube_views": 68301,
+            "number_of_users": "Not available in provided data"
+        },
+        "twitch_top_streamers": [],
+        "steam_player_count": 276239
+    },
+    "Stardew Valley": {
+        "trending_score": 55,
+        "key_insights": [
+            "Mentioned in Reddit posts, indicating continued interest among gamers.",
+            "Steam player count is moderate at 51,390, showing a stable player base.",
+            "High rating of 4.4 suggests positive user reception."
+        ],
+        "general_info": {
+            "publisher": "Not available in provided data",
+            "rating": 4.4,
+            "youtube_views": 1000000,
+            "number_of_users": "Not available in provided data"
+        },
+        "twitch_top_streamers": [],
+        "steam_player_count": 51390
+    },
+    "Deep Rock Galactic": {
+        "trending_score": 50,
+        "key_insights": [
+            "Mentioned in Reddit posts, indicating continued interest among gamers.",
+            "Steam player count is moderate at 7,474, showing a stable player base.",
+            "Good rating of 4.11 suggests positive user reception."
+        ],
+        "general_info": {
+            "publisher": "Not available in provided data",
+            "rating": 4.11,
+            "youtube_views": 1000000,
+            "number_of_users": "Not available in provided data"
+        },
+        "twitch_top_streamers": [],
+        "steam_player_count": 7474
+    },
+    "Project Zomboid": {
+        "trending_score": 45,
+        "key_insights": [
+            "Mentioned in Reddit posts, indicating continued interest among gamers.",
+            "Steam player count is moderate at 26,425, showing a stable player base.",
+            "Good rating of 3.9 suggests positive user reception."
+        ],
+        "general_info": {
+            "publisher": "Not available in provided data",
+            "rating": 3.9,
+            "youtube_views": 767255,
+            "number_of_users": "Not available in provided data"
+        },
+        "twitch_top_streamers": [],
+        "steam_player_count": 26425
+    },
+    "7 days to die": {
+        "trending_score": 40,
+        "key_insights": [
+            "Mentioned in Reddit posts, indicating continued interest among gamers.",
+            "Steam player count is moderate at 30,955, showing a stable player base.",
+            "Good rating of 3.35 suggests positive user reception."
+        ],
+        "general_info": {
+            "publisher": "Not available in provided data",
+            "rating": 3.35,
+            "youtube_views": 1000000,
+            "number_of_users": "Not available in provided data"
+        },
+        "twitch_top_streamers": [],
+        "steam_player_count": 30955
+    },
+    "Valorant": {
+        "trending_score": 90,
+        "key_insights": [
+            "High Steam player count is 27,759,176, indicating a large player base.",
+            "Good rating of 3.53 suggests positive user reception."
+        ],
+        "general_info": {
+            "publisher": "Not available in provided data",
+            "rating": 3.53,
+            "youtube_views": 1000000,
+            "number_of_users": "Not available in provided data"
+        },
+        "twitch_top_streamers": [],
+        "steam_player_count": 27759176
+    },
+    "Honkai: Star Rail": {
+        "trending_score": 85,
+        "key_insights": [
+            "High Steam player count is 27,499,450, indicating a large player base.",
+            "Good rating of 3.71 suggests positive user reception."
+        ],
+        "general_info": {
+            "publisher": "Not available in provided data",
+            "rating": 3.71,
+            "youtube_views": 0,
+            "number_of_users": "Not available in provided data"
+        },
+        "twitch_top_streamers": [],
+        "steam_player_count": 27499450
+    }
+}

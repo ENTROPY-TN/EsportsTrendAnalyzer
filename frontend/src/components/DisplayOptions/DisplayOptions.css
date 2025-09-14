@@ -1,0 +1,85 @@
+/* src/components/DisplayOptions/DisplayOptions.css */
+.display-options {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.view-mode-toggle {
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.view-mode-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  color: #999;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-mode-btn:hover {
+  color: #ccc;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.view-mode-btn.active {
+  background: rgba(255, 107, 53, 0.2);
+  color: #ff6b35;
+}
+
+.sort-options {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort-label {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.sort-select {
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  font-size: 0.9rem;
+}
+
+.sort-select option {
+  background: #1a1a2e;
+  color: white;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .display-options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .sort-options {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .sort-select {
+    flex: 1;
+    max-width: 200px;
+  }
+}

@@ -1,0 +1,5 @@
+requests
+kafka-python
+praw
+langchain-google-genai
+langgraph

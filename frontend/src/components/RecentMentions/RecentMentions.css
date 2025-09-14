@@ -1,0 +1,27 @@
+.recent-mentions {
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mentions-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.recent-mentions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-mentions li {
+  margin: 6px 0;
+}
+
+.mention-user {
+  font-weight: bold;
+  color: #3498db;
+}

@@ -1,0 +1,141 @@
+
+.feed-page {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+}
+
+.feed-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 30px;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ff6b35, #f7931e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.view-options {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.view-select {
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+}
+
+.platform-filters {
+  display: flex;
+  gap: 10px;
+}
+
+.platform-filter {
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.platform-filter:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.platform-filter.active {
+  background: rgba(255, 107, 53, 0.3);
+  border-color: #ff6b35;
+  color: #ff6b35;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 25px;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  gap: 20px;
+}
+
+.loading-container div {
+  font-size: 3rem;
+  animation: pulse 2s infinite;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .feed-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .sidebar-filters {
+    width: 100%;
+    position: static;
+  }
+
+  .content-header {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .view-options {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .games-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .platform-filters {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .view-options {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+

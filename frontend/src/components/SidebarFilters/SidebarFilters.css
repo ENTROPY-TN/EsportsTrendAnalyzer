@@ -1,0 +1,156 @@
+.sidebar-filters {
+  width: 280px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  height: fit-content;
+  position: sticky;
+  top: 100px;
+}
+
+.filter-section {
+  margin-bottom: 25px;
+}
+
+.filter-title {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  color: #ccc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.filter-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.filter-item.active {
+  background: rgba(255, 107, 53, 0.2);
+  color: #ff6b35;
+}
+
+.filter-icon {
+  font-size: 1.1rem;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-subsection {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.filter-subitem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 15px;
+  margin-bottom: 4px;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  color: #999;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.filter-subitem:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ccc;
+}
+
+.filter-subitem .filter-icon {
+  font-size: 1rem;
+}
+
+.show-all-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 15px;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.show-all-button:hover {
+  color: #999;
+}
+
+.chevron {
+  font-size: 1.2rem;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.show-all-button.expanded .chevron {
+  transform: rotate(180deg);
+}
+
+/* Remove the old featured games section styles since we're replacing with the new structure */
+.featured-games {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.featured-game {
+  padding: 12px;
+  margin-bottom: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.featured-game:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
+}
+
+.featured-game h4 {
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.featured-game p {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.hype-count {
+  color: #4ade80;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
