@@ -9,6 +9,9 @@
 HypeHunter is a cutting-edge, subscription-based analytics platform that empowers streamers, game developers, and marketing agencies with real-time insights into the gaming landscape. We transform the chaotic firehose of social media and community discussions into structured, predictive data, helping you discover the next big thing before it goes viral.  
 
 ---
+## LIVE DEMO:
+URL: https://www.canva.com/design/DAGy8jRaY3c/nxivgw3UMGnrJPOOjYlc4w/watch?utm_content=DAGy8jRaY3c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h74df25eef2
+
 
 
 ## Table of Contents
