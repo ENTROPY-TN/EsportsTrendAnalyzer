@@ -67,7 +67,7 @@ HypeHunter is built on a robust, event-driven architecture designed for scalabil
 | **Frontend** | React, WebSocket Client |
 | **Deployment** | Docker, Kubernetes, dotenv |
 
-## How HypeHunter Works
+# How HypeHunter Works
 
 HypeHunter leverages advanced data aggregation and AI-driven analytics to identify trending games and deliver actionable insights to gamers, streamers, and developers. The system’s workflow is structured as follows:
 
