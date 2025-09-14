@@ -17,7 +17,8 @@ URL: https://www.canva.com/design/DAGy8jRaY3c/nxivgw3UMGnrJPOOjYlc4w/watch?utm_c
 ## Table of Contents
 - [Features](#-features)  
 - [High-Level Architecture](#-high-level-architecture)  
-- [Tech Stack](#️-tech-stack)  
+- [Tech Stack](#️-tech-stack)
+- [How HypeHunter Works](#-How-HypeHunter-Works)   
 - [Project Structure](#-project-structure)  
 - [Installation & Setup](#️-installation--setup)  
 - [Usage](#-usage)  
