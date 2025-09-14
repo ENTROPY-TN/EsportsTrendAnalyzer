@@ -244,10 +244,3 @@ This project is **proprietary** and the intellectual property of **HypeHunter In
 See [LICENSE](LICENSE) for details.
 
 ---
-
-## 📞 Contact
-
-**HypeHunter Inc.**  
-- 🌐 Website: [https://hypehunter.com](https://hypehunter.com)  
-- 📧 Email: info@hypehunter.com  
-- 🐦 Twitter: [@HypeHunterApp](https://twitter.com/HypeHunterApp)
